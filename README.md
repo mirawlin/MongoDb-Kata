@@ -1,10 +1,13 @@
 # MongoDb-Kata
 
-run the below:
+run docker compose
+`docker-compose -f docker/docker-compose.yml -p mongoKata up`
 
-brew install mongodb/brew/mongodb-database-tools
+run the below to import data:
 
-mongoimport --db mongo_kata --collection Students --file ./data/Students.json
+`brew install mongodb/brew/mongodb-database-tools`
+
+`mongoimport --db mongo_kata --collection Students --file ./data/Students.json`
 
 
 ## Questions
