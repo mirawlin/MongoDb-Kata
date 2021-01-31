@@ -29,3 +29,50 @@ run the below to import data:
 8. Find each student’s average mark across all areas
 
 9. What is the overall average exam score for all students
+
+
+# Part 2 (Hobbies)
+
+## Insert / Update / Delete
+
+1. Insert a document for William. He has no hobbies.
+
+2. Using one query - add 3 more people to list: 
+    - 'Beethoven' who loves 'music' 
+    - 'Bugs Bunny' who eats 'carrots' all day
+    - 'Snoopy' who has no hobbies
+
+3. Update William's document to include a hobby :'jigsaw puzzles'
+
+4. Update everyone's records to include another column `likes_dessert` = true if they have 2 or more hobbies
+
+5. Delete the document for `Bugs Bunny`
+
+6. Delete all the people from the DB if they have 0 hobbies
+
+
+## Search (regex + string search)
+
+1. Find all the people who have a space in their name
+
+2. Find everyone whose Name starts with a vowel
+
+3. Find everyone whose name starts with a consonant and ends with a vowel
+
+4. Find all the hobbies that does not contain the letter `b`
+
+5. Search for everyone whose name contains `Nicolas`
+
+6. Search for everyone who has the name Nicolas - case-insensitive 
+
+
+## Indexes
+
+1. Create an index on the name. Look for it in the list of indexes
+
+
+## Complex aggregations (Hobbies and Students)
+
+1. Find the student with the most hobbies and the highest exam score
+
+1. Find the students with 2 hobbies and the has the lowest homework score
