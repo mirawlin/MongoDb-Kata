@@ -44,7 +44,9 @@ run the below to import data:
 
 3. Update William's document to include a hobby :'jigsaw puzzles'
 
-4. Update everyone's records to include another column `likes_dessert` = true if they have 2 or more hobbies
+4. Update everyone's records to include another column `likes_dessert` = true 
+
+Bonus Q : update the above if they have 2 or more hobbies
 
 5. Delete the document for `Bugs Bunny`
 
@@ -57,13 +59,13 @@ run the below to import data:
 
 2. Find everyone whose Name starts with a vowel
 
-3. Find everyone whose name starts with a consonant and ends with a vowel
+3. Find everyone whose name starts with a consonant 
 
-4. Find all the hobbies that does not contain the letter `b`
+Bonus Q: Find everyone whoes name ends with a vowel too
 
-5. Search for everyone whose name contains `Nicolas`
+4. Search for everyone whose name contains `Nicolas`
 
-6. Search for everyone who has the name Nicolas - case-insensitive 
+5. Search for everyone who has the name Nicolas - case-insensitive 
 
 
 ## Indexes
@@ -73,6 +75,8 @@ run the below to import data:
 
 ## Complex aggregations (Hobbies and Students)
 
-1. Find the student with the most hobbies and the highest exam score
+1. Find everyone who is a student and has hobbies
 
-1. Find the students with 2 hobbies and the has the lowest homework score
+2. Find the student with the most hobbies and the highest exam score
+
+3. Find the students with 2 hobbies and the has the lowest homework score
