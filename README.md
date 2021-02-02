@@ -8,6 +8,7 @@ run the below to import data:
 `brew install mongodb/brew/mongodb-database-tools`
 
 `mongoimport --db mongo_kata --collection Students --file ./data/Students.json`
+`mongoimport --db mongo_kata --collection Hobbies --file ./data/Hobbies.json`
 
 
 ## Questions
